@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Sandy's Personal Website </title>
+  <link rel="stylesheet" href="style.css">
   
   <meta name="description" content="Sandy Zheng's personal website">
     <meta name="author" content="Sandy Zheng">
@@ -11,69 +12,40 @@
 
   
 <body>
-  <h1>Sandy Zheng</h1>
-  <img src="my_img.jpg" alt="an image of Sandy Zheng" width="300" height="300">
-    <p>
+  <h1 id="name">Sandy Zheng</h1>
+  <div id="banner">
+    <img id="profile-picture" src="photosss/my_img.jpg" alt="Photo of Sandy Zheng">
+  </div>
+  
+  
+    <p id="header">
       Computer Science @ University of Chicago (Class of 2027)
     </p>
-  
-  
-  <p>
-      <a href="#about">About</a> |
-      <a href="#contact">Contact</a> |
-      <a href="#favorites">Favorites</a>
-    </p>
-  
-  <br>
-  
-  
-  <section id="about">
-    <h2>
-      About
-    </h2>
-    <p>
-      Hi, I am Sandy Zheng, a current Junior studying computer science at the University of Chicago. I’m interested in accessibility, creative computing, and product-focused software engineering. In my free time, I love to sing, play basketball, and binge-watch dramas.
-    </p> 
-  </section>
-  
-  <br>
-  
-  <section id="contact">
-    <h2>
-      Contact
-    </h2>
-    <p>
-    Email: 
-    <a href="mailto:sandyzheng@uchicago.edu">
-      sandyzhengg@uchicago.edu
-    </a>
-  </p>
-    
-  </section>
-  
-  <br>
-  
-  <section id="favorites">
-    <h2>
-    Favorites
-    </h2>
-    <ul>
-        <li>
-          Song: <a href="https://www.youtube.com/watch?v=UlFrV5GJA_4" target="_blank">Sparks Fly</a>
-        </li>
+      
 
-        <li>
-            Show: <a href="https://www.imdb.com/title/tt7235466/" target="_blank">911</a>
-        </li>
-
-        <li>
-            Drink: <a href="https://en.wikipedia.org/wiki/Diet_Coke" target="_blank">Diet Coke</a>
-        </li>
-      </ul>
-  </section>
+  <br>
   
   
+  <div id="nav-gallery">
+    <div class="nav-item">
+      <a href="About.html">About</a>
+      <img src="photosss/about.jpg" alt="About">
+    </div>
   
-  </body>
+    <div class="nav-item">
+      <a href="Contact.html">Contact</a>
+      <img src="photosss/contact.jpg" alt="Contact">
+    </div>
   
-</html>
+    <div class="nav-item">
+      <a href="Favorites.html">Favorites</a>
+      <img src="photosss/favorites.jpg" alt="Favorites">
+    </div>
+  
+    <div class="nav-item">
+      <a href="Photos.html">Photos</a>
+      <img src="photosss/photo.jpg" alt="Photos">
+    </div>
+  </div>
+  
+</body>  
